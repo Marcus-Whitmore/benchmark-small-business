@@ -1,3 +1,4 @@
-.body{
-    background-color: blanchedalmond;
+#start_box{
+    display: inline-flexbox;
+    border: 0em;
 }
