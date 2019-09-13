@@ -1,4 +1,89 @@
-#start_box{
-    display: inline-flexbox;
-    border: 0em solid plum;
+body{
+background-image: url("uni_waves.jpg");
+}
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#container{
+  display: flex;
+  flex-direction: row-reverse;
+  height: 500px;
+  width: 500;
+  right: 0
+}
+
+#about{
+  border: solid black 1px;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 1px;
+  height: 114px;
+}
+#box-1{
+  border: 1px solid black;
+  width: 30%;
+  height: 32%;
+  background-image: url("wave-ocean-animated-gif-14.gif");
+  background-repeat: no-repeat;
+  background-size: 147%;
+  padding: 5rem;
+  
+  }
+#box-2{
+  border: solid 1px black;
+  width: 30%;
+  height: 49%;
+  
+  background-image: url("man_waves.jpg");
+  background-repeat: no-repeat;
+  background-size: 104%;
+  padding: 5rem;
+  margin: 3rem;
+}
+#box-3{
+  border: solid 1px black;
+  width: 30%;
+  height: 35%;
+  background-image: url("black_male_wearing\ durag.jpeg");
+  background-repeat: no-repeat;
+  background-size: 130%;
+  padding: 5rem;
+}
+  
+
+#man_waves{
+  width: 400px;
+  height: 150px;
+}
+
+
+.topnav {
+  
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  display: flex;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  justify-content: center;
+  
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: cyan;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  
+  color: black;
 }

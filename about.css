@@ -1,0 +1,42 @@
+body{
+    background-image: url("uni_waves.jpg");
+  }
+#about{
+  border: solid black 1px;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 1px;
+}
+#paragraph{
+  border: solid 1px black;
+}
+.topnav {
+  
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  display: flex;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  justify-content: center;
+  
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: cyan;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  
+  color: black;
+}

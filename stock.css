@@ -1,0 +1,91 @@
+body{
+    background-image: url("uni_waves.jpg")
+  }
+  #container{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 500px;
+    width: 500;
+    right: 0
+  }
+  
+  #about{
+    border: solid black 1px;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 1px;
+    height: 114px;
+    
+  }
+  #box-1{
+    border: 1px solid black;
+    width: 20%;
+    height: 32%;
+    background-image: url("gucci_durag.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5rem;
+    background-color:whitesmoke;
+    
+    }
+  #box-2{
+    border: solid 1px black;
+    width: 30%;
+    height: 24%;
+    
+    background-image: url("Designer-Durag.jpg");
+    background-repeat: no-repeat;
+    background-size: 178%;
+    margin: 3rem;
+    padding: 4rem;
+  }
+  #box-3{
+    border: solid 1px black;
+    width: 20%;
+    height: 32%;
+    
+    background-image: url("grey_durag.jpg");
+    background-repeat: no-repeat;
+    background-size: 100;
+    background-position: center;
+    padding: 5rem;
+    background-color: whitesmoke
+  }
+    
+  
+  #man_waves{
+    width: 400px;
+    height: 150px;
+  }
+  
+  
+  .topnav {
+    
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    display: flex;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    justify-content: center;
+    
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: cyan;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    
+    color: black;
+  }

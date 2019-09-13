@@ -1,0 +1,81 @@
+#start_box{
+    display: flexbox;
+    border: 3px solid cyan;
+    height: 70px;
+    padding: 20px;
+    margin: 2rem;
+    color:  cyan;
+    text-align: center;
+    background-image: url("big_waves.jpg");
+    background-size: 100
+    
+}
+
+body{
+    
+    background-color: grey;
+}
+   
+.topnav {
+    background-color:black;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    display: flex;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    justify-content: center;
+    
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: cyan;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    
+    color: cyan;
+  }
+#picture{
+border:20px solid cyan;
+}
+
+/* .pictures{
+    display: flex;
+    
+    color: black;
+    border: 3px solid cyan;
+    margin: 60px -2rem ;
+    padding: 20px;
+    width: 50%;
+    height: 200px;
+    justify-content: center; 
+} */
+
+#second_picture{  
+    display: flex;
+    flex-direction: row;
+    
+    color: black;
+    border: 3px solid cyan;
+    margin: 60px -2rem ;
+    padding: 20px;
+    width: 50%;
+    height: 200px;
+    justify-content: center;
+    
+    
+    
+    
+   
+    } */
