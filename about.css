@@ -40,3 +40,6 @@ body{
   
   color: black;
 }
+#paragraph{
+  border: solid 1px black;
+}
